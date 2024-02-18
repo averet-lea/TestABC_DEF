@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/trunk/src/Core/Framework/App/Manifest/Schema/manifest-2.0.xsd">
+    <meta>
+        <name>TestABC_DEF</name>
+        <label>TestABC_DEF</label>
+        <label lang="de-DE">TestABC_DEF</label>
+        <description>Test lower upper case and underscore symbol in name</description>
+        <description lang="de-DE">Test lower upper case and underscore symbol in name</description>
+        <author>ABC_DEF</author>
+        <copyright>ABC_DEF</copyright>
+        <version>1.6.6_RC</version>
+        <icon></icon>
+        <license>UNLICENSED</license>
+    </meta>
+</manifest>

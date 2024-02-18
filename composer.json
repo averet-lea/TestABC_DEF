@@ -1,0 +1,32 @@
+{
+    "name": "testabc_def/testabc_def",
+    "description": "Test lower upper case and underscore symbol in name",
+    "version": "1.0.0",
+    "type": "shopware-platform-plugin",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Shopware"
+      }
+    ],
+    "require": {
+      "shopware/core": "6.5.*",
+      "ext-curl": "*"
+    },
+    "extra": {
+      "shopware-plugin-class": "TestABC_DEF\\TestABC_DEF",
+      "label": {
+        "de-DE": "TestABC_DEF",
+        "en-GB": "TestABC_DEF"
+      },
+      "description": {
+        "de-DE": "Test lower upper case and underscore symbol in name",
+        "en-GB": "Test lower upper case and underscore symbol in name"
+      }
+    },
+    "autoload": {
+      "psr-4": {
+        "TestABC_DEF\\": "src/"
+      }
+    }
+  }
